@@ -12,47 +12,52 @@
   <body>
    <!-- nav -->
    <nav class="firstNav">
-    <div class="container-fluid">
+    <div class="container-fluid navDiv">
       <a class="navbar-brand" href="#">
         <img src="https://news.airbnb.com/wp-content/uploads/sites/4/2017/07/airbnb-newsroom-twitter-card-default.png?fit=2400%2C1260" alt="Logo" width="100"class="d-inline-block align-text-top">
       </a> 
-    </div>
-    <div>
-        <ul>
+      <div class="list">
+        <div class="listItem">
+          <ul>
            <a href="#"><li>stays</li></a> 
            <a href="#"><li>experiences</li></a> 
-           <a href="#"><li>Online experiences</li></a>            
+           <a href="#"><li>Online experiences</li></a>          
            <a href="#"><li>Airbnb your home</li></a> 
-           <i class="fa-solid fa-globe"></i>
+            <i class="fa-solid fa-globe"></i>
+          </ul>
+          </div>
            <div class="login">
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-user"></i>
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
            </div>
-        </ul>
+        
     </div>
+    </div>    
   </nav>
   <div class="nextNav">
-<div class="inputs">
-  <form action="">
-  where
-  <input type="text" name="" id="location" required placeholder="Search a destinations">
-</div>
-<div class="inputs">
-  check in
-  <input type="text" name="" id="indate" placeholder="Add dates" required>
-</div>
-
-<div class="inputs">
-  check out
-  <input type="text" name="" id="outDate" placeholder="Add dates" required>
-</div>
-
-<div class="inputs">
-  who
-  <input type="text" name="" id="guests" placeholder = "Add guests" required>
-</div>
-<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-</form>
+    <div class="content">
+      <div class="inputs">
+        <form action="">
+         <label for="destinations">where</label>
+        <input type="text" name="destinations" id="location" required placeholder="Search a destinations">
+      </div>
+      <div class="inputs">
+        <label for="addDate">check in</label>
+        <input type="text" name="addDate" id="indate" placeholder="Add dates" required>
+      </div>
+      
+      <div class="inputs">
+        <label for="outDate">check out</label>
+        <input type="text" name="outDate" id="outDate" placeholder="Add dates" required>
+      </div>
+      
+      <div class="inputs flex">
+       <label for="guest">who</label>
+        <input type="text" name="guest" id="guests" placeholder = "Add guests" required>
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </form>      
+    </div>
   </div>
    <!-- nav -->
    <hr>
