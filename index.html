@@ -5,21 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./bots.css">
   </head>
   <body>
    <!-- nav -->
-   <nav class="navbar">
+   <nav class="firstNav">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="https://news.airbnb.com/wp-content/uploads/sites/4/2017/07/airbnb-newsroom-twitter-card-default.png?fit=2400%2C1260" alt="Logo" width="100"class="d-inline-block align-text-top">
       </a> 
     </div>
-    
+    <div>
+        <ul>
+           <a href="#"><li>stays</li></a> 
+           <a href="#"><li>experiences</li></a> 
+           <a href="#"><li>Online experiences</li></a>            
+           <a href="#"><li>Airbnb your home</li></a> 
+           <i class="fa-solid fa-globe"></i>
+           <div class="login">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-user"></i>
+           </div>
+        </ul>
+    </div>
   </nav>
-  
+  <div class="nextNav">
+<div class="inputs">
+  <form action="">
+  where
+  <input type="text" name="" id="location" required placeholder="Search a destinations">
+</div>
+<div class="inputs">
+  check in
+  <input type="text" name="" id="indate" placeholder="Add dates" required>
+</div>
+
+<div class="inputs">
+  check out
+  <input type="text" name="" id="outDate" placeholder="Add dates" required>
+</div>
+
+<div class="inputs">
+  who
+  <input type="text" name="" id="guests" placeholder = "Add guests" required>
+</div>
+<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+</form>
+  </div>
    <!-- nav -->
+   <hr>
+   <div class="icons">
+    <div class="ic">
+      <i class="fa-solid fa-water-ladder"></i>
+      <h6>Amazing pools</h6>
+    </div>
+    <div class="ic">
+      <i class="fa-solid fa-icons"></i>
+      <h6>icons</h6>
+    </div>
+    <div class="ic">
+      <i class="fa-solid fa-tree-city"></i>
+      <h6>Cities</h6>
+    </div>
+    <div class="ic">
+      <i class="fa-solid fa-umbrella-beach"></i>
+      <h6>Island</h6>
+    </div>
+    <div class="ic">
+      <i class="fa-solid fa-fan"></i>
+      <h6>Windmills</h6>
+    </div>
+    <div class="ic">
+      <i class="fa-solid fa-plane-departure"></i>
+      <h6>omg</h6>
+    </div>
+    <div class="flt">
+      <i class="fa-solid fa-filter"></i>
+      <h6>filters</h6>
+    </div>
+    <div class="btn">      
+      <h6>display total before textarea</h6>
+      <i class="fa-solid fa-toggle-on"></i>
+      <i class="fa-solid fa-toggle-off"></i>
+    </div>
+   </div>
+   <section class="hero">
+    <div class="card" style="width: 18rem;">
+      <img src="https://source.unsplash.com/user/red/1600px900px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5><b>karachi,Pakistan</b></h5>
+        <p class="card-text">Some quick example text to build
+          <br> card's content.</p>
+        <p><b>$154</b> night</p>
+      </div>
+    </div>
+   </section>
 </body>
 <script src="./app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
