@@ -125,7 +125,7 @@ border: none;
 div.nextNav .content .inputs .search button{
     border-radius: 100px;
     font-size: 1.2rem;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border: none;
     border: 1px solid #00000052;
     color: red;
@@ -148,5 +148,6 @@ width: auto;
 border-radius: 20px;
 padding: 6px;
 background: transparent;
+outline: 0;
 
 }
